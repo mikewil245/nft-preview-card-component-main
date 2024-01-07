@@ -1,0 +1,144 @@
+:root {
+  /* Primary*/
+
+  --SoftBlue: hsl(215, 51%, 70%);
+
+  --Cyan: hsl(178, 100%, 50%);
+
+  /*Neutral*/
+  --VeryDarkBluemainBG: hsl(217, 54%, 11%);
+  --VeryDarkBluecardBG: hsl(216, 50%, 16%);
+  --VeryDarkBlueLine: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  overflow-wrap: break-word; /* see how this comes out*/
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set body defaults */
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  /* center demo content on the screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  background-color: var(--VeryDarkBluemainBG);
+  margin: 25px;
+}
+
+.nft-wrapper {
+  background-color: var(--VeryDarkBluecardBG);
+  padding: 20px;
+  border-radius: 0.5rem;
+  max-width: 21.875rem;
+}
+
+.nft-photo img {
+  border-radius: 0.5rem;
+}
+.nft-p {
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: var(--SoftBlue);
+  line-height: 1.4;
+  margin-bottom: 1em;
+}
+
+.blue-nft {
+  color: var(--Cyan);
+  font-size: 0.938rem;
+}
+
+.right-side p {
+  font-size: 0.938rem;
+  color: var(--SoftBlue);
+}
+
+.nft-content h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--White);
+  line-height: 1.2;
+}
+
+.nft-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.nft-flex p {
+  font-weight: 600;
+}
+
+.left-side,
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-img {
+  width: 10%;
+  border: 1px solid var(--White);
+  border-radius: 50%;
+}
+
+.footer-wrapper p {
+  color: white;
+  font-size: 0.938rem;
+  font-weight: 600;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.custom-text {
+  color: var(--SoftBlue);
+}
+
+hr {
+  margin-bottom: 1em;
+  color: var(--SoftBlue);
+}
