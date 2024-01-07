@@ -61,19 +61,20 @@ svg {
 
 body {
   background-color: var(--VeryDarkBluemainBG);
-  margin: 1.563em;
+  margin: 1.1em;
 }
 
 .nft-wrapper {
   background-color: var(--VeryDarkBluecardBG);
-  padding: 1.563em;
-  padding-bottom: 30px;
+  padding: 1.2em;
+  padding-bottom: 1.4em;
   border-radius: 0.8rem;
   max-width: 21.875rem;
 }
 
 .nft-photo img {
   border-radius: 0.5rem;
+  margin-bottom: 1.2em;
 }
 
 .nft-p {
