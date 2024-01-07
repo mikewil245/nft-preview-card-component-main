@@ -142,3 +142,15 @@ hr {
   margin-bottom: 1em;
   color: var(--SoftBlue);
 }
+
+h1:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.hover-footer:hover {
+  color: var(--Cyan);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
